@@ -1,0 +1,47 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #080c14;
+  color: #ffffff;
+}
+
+.font-teko {
+  font-family: 'Teko', sans-serif;
+}
+
+/* Formato Agressivo do Card FC26 */
+.fc-card-shape {
+  clip-path: polygon(
+    15% 0%, 85% 0%, 
+    100% 8%, 100% 88%, 
+    85% 97%, 50% 100%, 15% 97%, 
+    0% 88%, 0% 8%
+  );
+}
+
+.fc-card-border {
+  clip-path: polygon(
+    15% 0%, 85% 0%, 
+    100% 8%, 100% 88%, 
+    85% 97%, 50% 100%, 15% 97%, 
+    0% 88%, 0% 8%
+  );
+  background: linear-gradient(135deg, #ffe885 0%, #b8860b 35%, #ffd700 65%, #573e00 100%);
+}
+
+.fc-card-bg {
+  background: radial-gradient(circle at 50% 30%, #3a2e0b 0%, #171203 70%, #0a0801 100%);
+}
+
+/* Raios de fundo no card */
+.card-rays {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 215, 0, 0.08) 0deg 15deg,
+    transparent 15deg 30deg
+  );
+}
+
+/* Sombra e Brilho */
+.card-glow {
+  box-shadow: 0 0 35px rgba(218, 165, 32, 0.35);
+}
